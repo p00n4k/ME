@@ -1,0 +1,24 @@
+.geekbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+  background-color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.geekbutton:hover {
+  color: rgb(255, 255, 255);
+  background-color: #686868;
+  transform: translateY(-2px);
+}
+
+.geekbutton:active {
+  background-color: #cdcdcd;
+  transform: translateY(1px);
+}

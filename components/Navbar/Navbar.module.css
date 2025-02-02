@@ -1,0 +1,15 @@
+/* Navbar.module.css */
+@tailwind components;
+.navbar {
+  @apply bg-gray-800 text-white p-4 rounded-2xl;
+}
+
+.link {
+  @apply text-white mx-4;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.link:hover {
+  @apply text-gray-400;
+}

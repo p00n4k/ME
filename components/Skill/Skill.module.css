@@ -1,0 +1,9 @@
+@tailwind components;
+
+.skill {
+  @apply justify-center items-center text-center mt-11;
+}
+
+.myskill {
+  @apply flex gap-4 justify-center;
+}
