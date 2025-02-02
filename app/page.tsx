@@ -35,7 +35,7 @@ export default function Home() {
         </a>
         <a href="https://www.instagram.com/p00n_pwk/" target="_blank" rel="noopener noreferrer">
           <Image
-            src="/images/instragram.png"
+            src="/images/instagram.png"
             alt="Instragram"
             width={30}
             height={30}
