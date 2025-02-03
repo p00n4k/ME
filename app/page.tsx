@@ -4,6 +4,7 @@ import Image from "next/image";
 
 
 
+
 export default function Home() {
   return (
     <div style={{ textAlign: 'center' }}>
@@ -20,8 +21,10 @@ export default function Home() {
       <br />
       <div>สวัสดีครับผม ปวินท์ ขำลักษณะ (ปุน)</div>
       <div>Hello I'm Pawin Khamlaksana (Poon)</div>
+
       <br />
-      <div>Working at GISTDA</div><br />
+      <br />
+      <div>- - - Working at GISTDA - - -</div><br />
       <div>
         <a href="https://www.facebook.com/pawin.khamlaksana/" target="_blank" rel="noopener noreferrer">
           <Image
@@ -42,7 +45,7 @@ export default function Home() {
             style={{ margin: '0 10px' }}
           />
         </a>
-        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/pawin-khamlaksana-31a6a2231/" target="_blank" rel="noopener noreferrer">
           <Image
             src="/images/linkedin.png"
             alt="LinkedIn"
@@ -81,7 +84,7 @@ export default function Home() {
         </a>
         <a href="https://www.notion.so/0bcc938f9dbe4063adf599ec7e921e17?v=4518033290974e54b0addf41caa77c4a" target="_blank" rel="noopener noreferrer">
           <Image
-            src="/images/work.png"
+            src="/images/notion.png"
             alt="Notion"
             width={30}
             height={30}
