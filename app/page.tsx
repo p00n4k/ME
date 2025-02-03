@@ -1,3 +1,4 @@
+import GoogleSearcher from "@/components/GoogleSearcher/GoogleSearcher";
 import LinkBoard from "@/components/LinkBoard/LinkBoard";
 import Skill from "@/components/Skill/Skill";
 import Image from "next/image";
@@ -23,6 +24,8 @@ export default function Home() {
       <div>Hello I'm Pawin Khamlaksana (Poon)</div>
 
       <br />
+
+      <GoogleSearcher />
       <br />
       <div>- - - Working at GISTDA - - -</div><br />
       <div>
@@ -104,6 +107,15 @@ export default function Home() {
           <Image
             src="/images/outlook.png"
             alt="Outlook"
+            width={30}
+            height={30}
+            style={{ margin: '0 10px' }}
+          />
+        </a>
+        <a href="https://stackoverflow.com/users/your-user-id" target="_blank" rel="noopener noreferrer">
+          <Image
+            src="/images/stackoverflow.png"
+            alt="Stack Overflow"
             width={30}
             height={30}
             style={{ margin: '0 10px' }}
