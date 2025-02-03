@@ -121,10 +121,15 @@ export default function Home() {
             style={{ margin: '0 10px' }}
           />
         </a>
-        <Skill />
+        <br />
+        <br />
+        <br />
         <br />
         <LinkBoard />
 
+        <br />
+        <br />
+        <Skill />
 
       </div>
 
