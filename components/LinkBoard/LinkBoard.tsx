@@ -14,9 +14,13 @@ const LinkBoard = () => {
                 📝 Resume
             </a>
             <br />
-            <a href="/" className={styles.geekbutton}> 🕹️ Hobby
+            <a href="/hobby" className={styles.geekbutton}> 🕹️ Hobby
             </a>
             <a href="/" className={styles.geekbutton}> 📊 Project
+            </a>
+            <a href="/" className={styles.geekbutton}> 🏆 Achievement
+            </a>
+            <a href="/" className={styles.geekbutton}> 🛠️ Tools
             </a>
 
 
