@@ -21,7 +21,7 @@ const Hobby = () => {
                     <a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer" className={styles.geekbutton}>
                         Twitch
                     </a>
-                    <a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer" className={styles.geekbutton} >
+                    <a href="https://www.bilibili.tv/th" target="_blank" rel="noopener noreferrer" className={styles.geekbutton} >
                         Bilibili
                     </a>
 
