@@ -91,6 +91,24 @@ export default function Home() {
             style={{ margin: '0 10px' }}
           />
         </a>
+        <a href="https://www.gmail.com" target="_blank" rel="noopener noreferrer">
+          <Image
+            src="/images/gmail.png"
+            alt="Gmail"
+            width={30}
+            height={30}
+            style={{ margin: '0 10px' }}
+          />
+        </a>
+        <a href="https://outlook.live.com/" target="_blank" rel="noopener noreferrer">
+          <Image
+            src="/images/outlook.png"
+            alt="Outlook"
+            width={30}
+            height={30}
+            style={{ margin: '0 10px' }}
+          />
+        </a>
         <Skill />
         <br />
         <LinkBoard />
