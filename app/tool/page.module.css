@@ -1,0 +1,47 @@
+.tool {
+  padding: 20px;
+}
+
+.categoriesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.categoryBox {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px rgba(15, 18, 33, 0.1);
+  text-align: left;
+}
+
+.categoryBox h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.geekbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: #2d3748;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.geekbutton:hover {
+  color: rgb(235, 235, 235);
+  background-color: #686868;
+  transform: translateY(-2px);
+}
+
+.geekbutton:active {
+  background-color: #cdcdcd;
+  transform: translateY(1px);
+}

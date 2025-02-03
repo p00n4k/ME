@@ -18,9 +18,9 @@ const LinkBoard = () => {
             </a>
             <a href="/" className={styles.geekbutton}> 📊 Project
             </a>
-            <a href="/" className={styles.geekbutton}> 🏆 Achievement
+            <a href="https://www.canva.com/design/DAGeDjw3-Zg/x3t2QK47KjU1ou7cxXp3-Q/edit" className={styles.geekbutton}> 💡 Idea
             </a>
-            <a href="/" className={styles.geekbutton}> 🛠️ Tools
+            <a href="/tool" className={styles.geekbutton}> 🛠️ Tools
             </a>
 
 
